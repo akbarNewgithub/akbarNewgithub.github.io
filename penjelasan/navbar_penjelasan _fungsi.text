@@ -1,0 +1,21 @@
+1. <nav class="navbar navbar-expand-lg navbar-light bg-light">
+Elemen <nav> digunakan untuk mendefinisikan bagian navigasi pada halaman. Dalam hal ini, elemen ini menggunakan beberapa kelas dari Bootstrap untuk membuat navbar responsif dan berwarna terang.
+navbar: Kelas dasar untuk membuat navbar. Ini adalah kelas yang diperlukan untuk menandakan elemen navbar.
+navbar-expand-lg: Kelas ini menentukan bahwa navbar akan berkembang (menampilkan isi penuh) saat ukuran layar mencapai breakpoint lg (large, sekitar 992px) atau lebih besar. Untuk layar yang lebih kecil, navbar akan berperilaku sebagai navbar collapsible (biasanya dengan tombol hamburger).
+navbar-light: Kelas ini mengatur warna teks dan latar belakang navbar sehingga cocok untuk latar belakang terang. Teks akan menggunakan warna gelap untuk kontras yang baik.
+bg-light: Kelas ini mengatur warna latar belakang navbar menjadi warna terang. Ini adalah salah satu utilitas warna latar belakang dari Bootstrap.
+
+2. <div class="container-fluid">
+container-fluid: Kelas ini membuat kontainer yang memiliki lebar 100% dari viewport. Ini berguna untuk membuat tata letak yang merespons ukuran layar dengan baik, memastikan isi kontainer selalu mengisi lebar layar sepenuhnya tanpa margin otomatis di kiri dan kanan. Ini memberikan fleksibilitas lebih pada elemen-elemen di dalamnya.
+
+3. <div class="brand-logo d-flex align-items-center">
+brand-logo: Ini adalah kelas kustom (tidak berasal dari Bootstrap) yang digunakan untuk menampung elemen logo dan teks navbar. Kamu dapat mengatur gaya khusus untuk elemen logo dan teks dengan menggunakan kelas ini.
+d-flex: Kelas ini berasal dari Bootstrap dan mengaktifkan Flexbox pada elemen ini, membuatnya lebih mudah untuk menyelaraskan dan mendistribusikan ruang di antara item di dalam elemen ini.
+align-items-center: Kelas ini memastikan bahwa elemen di dalam kontainer Flexbox ini disejajarkan secara vertikal di tengah. Ini sangat berguna untuk memastikan gambar dan teks berada di garis yang sama secara vertikal.
+
+4. <img src="img/brand-saya.png" alt="Logo">
+Ini adalah elemen gambar yang digunakan untuk menampilkan logo. Atribut src menentukan path gambar, dan alt memberikan teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat.
+
+5. <h1 class="ml-2 mb-0">Navbar</h1>
+ml-2: Kelas utilitas dari Bootstrap yang menambahkan margin kiri (left) sebesar .5rem (8px). Ini memberikan sedikit ruang antara gambar logo dan teks heading, memastikan mereka tidak berdempetan.
+mb-0: Kelas utilitas dari Bootstrap yang menghapus margin bawah (bottom). Secara default, elemen heading seperti <h1> memiliki margin bawah, tetapi kelas ini mengatur margin bawah menjadi 0 untuk menghilangkan jarak tambahan di bawah heading.
